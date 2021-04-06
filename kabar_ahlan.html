@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Ahlan - Kabar Ahlan</title>
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/css/kabar_ahlan.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+</body>
+    <!-- NAV -->
+    <nav id="nav">
+        <div class="nav-ba-logo order-1">
+            <a href="./index.html">
+                <img src="./assets/images/logo.png" alt="#">
+            </a>
+        </div>
+        <div class="nav-ba-link order-md-2 order-3">
+            <a href="index.html">Home</a>
+            <a href="katalog.html">Katalog</a>
+            <a href="kabar_ahlan.html">Kabar Ahlan</a>
+            <a href="daftar_agen.html">Agen Ahlan</a>
+            <a href="cara_menjadi_agen.html">Cara Menjadi Agen</a>
+            <a href="testimoni.html">Testimoni</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="masuk.html" class="nav-ba-link-masuk d-lg-none d-md-none d-sm-block">Masuk</a>
+            <a href="katalog.html" class="nav-ba-link-buku d-lg-none d-md-none d-sm-block">Cari Buku</a>
+        </div>
+        <div class="nav-ba-icon order-md-3">
+            <a href="#">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.29167 12.0417C3.29167 7.21604 7.21604 3.29167 12.0417 3.29167C16.8673 3.29167 20.7917 7.21604 20.7917 12.0417C20.7917 16.8673 16.8673 20.7917 12.0417 20.7917C7.21604 20.7917 3.29167 16.8673 3.29167 12.0417ZM26.1977 24.1356L21.2467 19.1831C22.7823 17.2085 23.7083 14.7338 23.7083 12.0417C23.7083 5.60896 18.4744 0.375 12.0417 0.375C5.60896 0.375 0.375 5.60896 0.375 12.0417C0.375 18.4744 5.60896 23.7083 12.0417 23.7083C14.7338 23.7083 17.2085 22.7823 19.1831 21.2467L24.1356 26.1977C24.42 26.4821 24.7933 26.625 25.1667 26.625C25.54 26.625 25.9133 26.4821 26.1977 26.1977C26.7679 25.6275 26.7679 24.7058 26.1977 24.1356Z" fill="#25282B"/>
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.417 6.20833C13.417 4.59979 12.1089 3.29167 10.5003 3.29167C8.89178 3.29167 7.58366 4.59979 7.58366 6.20833C7.58366 7.81688 8.89178 9.125 10.5003 9.125C12.1089 9.125 13.417 7.81688 13.417 6.20833ZM16.3337 6.20833C16.3337 9.42542 13.7174 12.0417 10.5003 12.0417C7.28324 12.0417 4.66699 9.42542 4.66699 6.20833C4.66699 2.99125 7.28324 0.375 10.5003 0.375C13.7174 0.375 16.3337 2.99125 16.3337 6.20833ZM0.291992 25.1667C0.291992 19.5375 4.87262 14.9583 10.5003 14.9583C16.128 14.9583 20.7087 19.5375 20.7087 25.1667C20.7087 25.9717 20.0568 26.625 19.2503 26.625C18.4439 26.625 17.792 25.9717 17.792 25.1667C17.792 21.146 14.521 17.875 10.5003 17.875C6.4797 17.875 3.20866 21.146 3.20866 25.1667C3.20866 25.9717 2.55678 26.625 1.75033 26.625C0.943867 26.625 0.291992 25.9717 0.291992 25.1667Z" fill="#25282B"/>
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2393 18.6129C10.4857 18.6129 10.7337 18.6756 10.9568 18.801L17.792 22.6671V3.77875C17.792 3.48562 17.6155 3.29167 17.5003 3.29167H3.50032C3.38366 3.29167 3.20866 3.48562 3.20866 3.77875V22.5913L9.48824 18.8215C9.72012 18.6829 9.9797 18.6129 10.2393 18.6129ZM1.75033 26.625C1.50241 26.625 1.25449 26.5623 1.03137 26.4354C0.574909 26.1773 0.291992 25.6917 0.291992 25.1667V3.77875C0.291992 1.90188 1.73137 0.375 3.50033 0.375H17.5003C19.2693 0.375 20.7087 1.90188 20.7087 3.77875V25.1667C20.7087 25.6858 20.433 26.1656 19.9853 26.4267C19.5362 26.6892 18.9849 26.6935 18.5328 26.4369L10.2612 21.7585L2.49991 26.4179C2.26949 26.555 2.00991 26.625 1.75033 26.625Z" fill="#25282B"/>
+                </svg>
+            </a>
+        </div>
+        <div class="nav-ba-button order-2">
+            <button class="btn" data-svg="menu">
+                <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id=" menu">
+                    <path id="Icon" fill-rule="evenodd" clip-rule="evenodd" d="M7.4025 11.25H37.5956C38.5744 11.25 39.375 12.0506 39.375 13.0294V13.2206C39.375 14.1994 38.5744 15 37.5956 15H7.4025C6.42375 15 5.625 14.1994 5.625 13.2206V13.0294C5.625 12.0506 6.42375 11.25 7.4025 11.25ZM37.5956 20.625H7.4025C6.42375 20.625 5.625 21.4256 5.625 22.4044V22.5956C5.625 23.5744 6.42375 24.375 7.4025 24.375H37.5956C38.5744 24.375 39.375 23.5744 39.375 22.5956V22.4044C39.375 21.4256 38.5744 20.625 37.5956 20.625ZM37.5956 30H7.4025C6.42375 30 5.625 30.8006 5.625 31.7794V31.9706C5.625 32.9494 6.42375 33.75 7.4025 33.75H37.5956C38.5744 33.75 39.375 32.9494 39.375 31.9706V31.7794C39.375 30.8006 38.5744 30 37.5956 30Z" fill="#2E3A59"/>
+                    </g>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <!-- PATH -->
+    <section id="path">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>
+                        <a href="#" class="first-path">Home</a>
+                        <span class="px-2">
+                            <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.580215" y1="17.7284" x2="11.5802" y2="0.728375" stroke="#A0A4A8"/>
+                            </svg>
+                        </span>
+                        <a href="#" class="second-path">Kabar Ahlan</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MAIN KABAR 1 -->
+    <main id="main-kabar-1">
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <div class="col-lg-12">
+                    <h3>Kabar Ahlan</h3>
+                </div>
+            </div>
+            <div class="row">
+                <article class="col-lg-6 mb-lg-0 mb-4">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-blue-1" href="#">Segera Terbit</a>
+                            <img src="./assets/images/article-1.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Segera Terbit Seri Terbaru Ushul Tsalatsah</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+                <div class="col-lg-6">
+                    <article class="article-margin">
+                        <div class="article-card-2">
+                            <div class="article-card-ba-left position-relative">
+                                <a class="article-status bg-blue-1" href="#">Segera Terbit</a>
+                                <img src="./assets/images/article-2.png" alt="#">
+                            </div>
+                            <div class="article-card-ba-right">
+                                <h4><a href="#">Dapatkan Seri Terbaru dari Mudik Is Fun</a></h4>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article-margin">
+                        <div class="article-card-2">
+                            <div class="article-card-ba-left position-relative">
+                                <a class="article-status bg-purple-1" href="#">Suplemen</a>
+                                <img src="./assets/images/article-3.png" alt="#">
+                            </div>
+                            <div class="article-card-ba-right">
+                                <h4><a href="#">Lorem ipsum dolor sit amet consectetur</a></h4>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article-margin">
+                        <div class="article-card-2">
+                            <div class="article-card-ba-left position-relative">
+                                <a class="article-status bg-tomato-1" href="#">Ralat</a>
+                                <img src="./assets/images/article-4.png" alt="#">
+                            </div>
+                            <div class="article-card-ba-right">
+                                <h4><a href="#">Harga Terbaru buku ahlan Bulan November</a></h4>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- PAGINATION TAMPIL MOBILE VERSION -->
+            <div class="row mt-4 d-flex d-sm-none">
+                <div class="col-lg-12">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <svg width="9" height="18" viewBox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.50015 2.00061C8.50015 2.26428 8.41149 2.52911 8.22949 2.74728L3.00749 9.01345L8.04165 15.2691C8.44649 15.7696 8.36715 16.5046 7.86432 16.9095C7.36265 17.3131 6.62882 17.2338 6.22399 16.731L0.591319 9.73095C0.242486 9.29928 0.247153 8.67978 0.604153 8.25278L6.43749 1.25278C6.84932 0.758114 7.58549 0.691614 8.08015 1.10345C8.35665 1.33445 8.50015 1.66578 8.50015 2.00061Z" fill="#25282B"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <svg width="8" height="16" viewBox="0 0 18 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9997 18.0002C17.9997 18.5702 17.8072 19.1377 17.4197 19.6002L4.91971 34.6002C4.03721 35.6602 2.45971 35.8052 1.39971 34.9202C0.339715 34.0377 0.197215 32.4627 1.07972 31.4002L12.2697 17.9727L1.48221 4.56772C0.617215 3.49272 0.787215 1.91772 1.86221 1.05273C2.93721 0.187725 4.50971 0.357723 5.37721 1.43272L17.4472 16.4327C17.8147 16.8902 17.9997 17.4452 17.9997 18.0002Z" fill="#25282B"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN KABAR 2 -->
+    <main id="main-kabar-2">
+        <div class="container-fluid">
+            <div class="row">
+                <article class="col-lg-4 mb-5">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-tomato-1" href="#">Ralat</a>
+                            <img src="./assets/images/kabar-1.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Perubahana Harga buku dari series</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4 mb-5">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-purple-1" href="#">Suplemen</a>
+                            <img src="./assets/images/kabar-2.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4 mb-5">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-blue-1" href="#">Segera Terbit</a>
+                            <img src="./assets/images/kabar-3.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4 mb-5">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-tomato-1" href="#">Ralat</a>
+                            <img src="./assets/images/kabar-4.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4 mb-5">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-purple-1" href="#">Suplemen</a>
+                            <img src="./assets/images/kabar-5.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4 mb-5">
+                    <div class="article-card-big">
+                        <div class="article-card-ba-header position-relative">
+                            <a class="article-status bg-blue-1" href="#">Segera Terbit</a>
+                            <img src="./assets/images/kabar-6.png" alt="#">
+                        </div>
+                        <div class="article-card-ba-body">
+                            <h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <div>9/18/2020</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- PAGINATION -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <svg width="9" height="18" viewBox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.50015 2.00061C8.50015 2.26428 8.41149 2.52911 8.22949 2.74728L3.00749 9.01345L8.04165 15.2691C8.44649 15.7696 8.36715 16.5046 7.86432 16.9095C7.36265 17.3131 6.62882 17.2338 6.22399 16.731L0.591319 9.73095C0.242486 9.29928 0.247153 8.67978 0.604153 8.25278L6.43749 1.25278C6.84932 0.758114 7.58549 0.691614 8.08015 1.10345C8.35665 1.33445 8.50015 1.66578 8.50015 2.00061Z" fill="#25282B"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <svg width="8" height="16" viewBox="0 0 18 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9997 18.0002C17.9997 18.5702 17.8072 19.1377 17.4197 19.6002L4.91971 34.6002C4.03721 35.6602 2.45971 35.8052 1.39971 34.9202C0.339715 34.0377 0.197215 32.4627 1.07972 31.4002L12.2697 17.9727L1.48221 4.56772C0.617215 3.49272 0.787215 1.91772 1.86221 1.05273C2.93721 0.187725 4.50971 0.357723 5.37721 1.43272L17.4472 16.4327C17.8147 16.8902 17.9997 17.4452 17.9997 18.0002Z" fill="#25282B"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3>Ahlan</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <h3>Terms & Service</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Help Center</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Press Center</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <h3>Company</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Workshop</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <h3>Addres</h3>
+                            <p class="nav-link">8502 Preston Rd.<br /> Inglewood, Maine 98380</p>
+                            <a href="#" class="footer-facebook">
+                                <span>
+                                    <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 1.24224C11 1.10963 10.9473 0.982456 10.8536 0.888688C10.7598 0.794919 10.6326 0.742241 10.5 0.742241H8C6.74112 0.679532 5.5086 1.11763 4.57172 1.96082C3.63485 2.80401 3.06978 3.98374 3 5.24224V7.94224H0.5C0.367392 7.94224 0.240215 7.99492 0.146447 8.08869C0.0526785 8.18246 0 8.30964 0 8.44224V11.0422C0 11.1749 0.0526785 11.302 0.146447 11.3958C0.240215 11.4896 0.367392 11.5422 0.5 11.5422H3V18.2422C3 18.3749 3.05268 18.502 3.14645 18.5958C3.24021 18.6896 3.36739 18.7423 3.5 18.7423H6.5C6.63261 18.7423 6.75979 18.6896 6.85355 18.5958C6.94732 18.502 7 18.3749 7 18.2422V11.5422H9.62C9.73119 11.5438 9.83974 11.5083 9.92848 11.4413C10.0172 11.3743 10.0811 11.2796 10.11 11.1722L10.83 8.57224C10.8499 8.49837 10.8526 8.42091 10.8378 8.34583C10.8231 8.27076 10.7913 8.20007 10.7449 8.13921C10.6985 8.07836 10.6388 8.02895 10.5704 7.9948C10.5019 7.96065 10.4265 7.94267 10.35 7.94224H7V5.24224C7.02487 4.99472 7.14111 4.76535 7.32602 4.59894C7.51093 4.43252 7.75123 4.341 8 4.34224H10.5C10.6326 4.34224 10.7598 4.28956 10.8536 4.1958C10.9473 4.10203 11 3.97485 11 3.84224V1.24224Z" fill="#2F80ED"/>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="footer-twitter ml-4">
+                                <span>
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.08029 15.9988C6.55898 16.0483 8.03259 15.8009 9.41403 15.2711C10.7955 14.7414 12.0567 13.9401 13.1232 12.9146C14.1897 11.8892 15.0398 10.6603 15.6233 9.30071C16.2067 7.9411 16.5118 6.47833 16.5203 4.99883C17.1979 4.16024 17.7011 3.19465 18.0003 2.15882C18.0226 2.07699 18.0208 1.99044 17.9951 1.9096C17.9694 1.82876 17.9208 1.75708 17.8553 1.70319C17.7898 1.6493 17.7101 1.6155 17.6258 1.60585C17.5416 1.59621 17.4563 1.61113 17.3803 1.64882C17.0258 1.81948 16.6266 1.8746 16.2391 1.80643C15.8516 1.73826 15.4953 1.55023 15.2203 1.26882C14.8692 0.884402 14.4446 0.574354 13.9715 0.357051C13.4985 0.139748 12.9866 0.0196102 12.4662 0.00375728C11.9459 -0.0120957 11.4276 0.0766584 10.9422 0.26476C10.4568 0.452862 10.0141 0.736485 9.64029 1.09882C9.12848 1.59448 8.75361 2.21412 8.5521 2.8975C8.35059 3.58088 8.32929 4.30478 8.49028 4.99883C5.14029 5.19883 2.84029 3.60883 1.00029 1.42882C0.945009 1.36623 0.872699 1.32108 0.792188 1.29889C0.711677 1.27671 0.626449 1.27845 0.546911 1.3039C0.467372 1.32935 0.396967 1.37742 0.344292 1.44222C0.291616 1.50702 0.258951 1.58576 0.250285 1.66882C-0.100245 3.61325 0.152615 5.61837 0.974904 7.4149C1.79719 9.21142 3.14953 10.7133 4.85029 11.7188C3.70992 13.0267 2.10849 13.8435 0.380286 13.9988C0.287698 14.0142 0.202227 14.0581 0.135837 14.1244C0.0694465 14.1908 0.0254586 14.2762 0.0100294 14.3688C-0.00539983 14.4614 0.00850193 14.5564 0.049789 14.6407C0.0910762 14.725 0.157682 14.7943 0.240285 14.8388C1.74381 15.5902 3.39952 15.987 5.08029 15.9988Z" fill="#2F80ED"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- DESIGN BY -->
+    <div id="design-by">
+        <h6>Icons made by Pixel Perfect & Eva Icons</h6>
+    </div>
+    <script src="./styles/js/jquery-3.5.1.min.js"></script>
+    <script src="./styles/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./styles/js/kabar_ahlan.js"></script>
+</html>
